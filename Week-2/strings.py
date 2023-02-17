@@ -7,7 +7,7 @@ s_name = "wachira"
 full_name = f_name + s_name
 
 age = 25 # years
-print("my name s {} and I am {} years old ". format(full_name,age))
+print("my name is {} and I am {} years old ". format(full_name,age))
 
 
 print("Hello from moses \n How are you \n Iam fine")
