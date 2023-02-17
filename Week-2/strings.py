@@ -1,3 +1,11 @@
+#!usr/bin/env python3
+#This is a single line comment
+#python program on strings
+#Name : Moses Wachira
+#Email : wachiramoses519@gmail.com
+#Date : 16th Feb 2023
+#File : stringss.py
+
 poem = """ This is a poem about nothing
         Its funnypeople laugh about 
 """

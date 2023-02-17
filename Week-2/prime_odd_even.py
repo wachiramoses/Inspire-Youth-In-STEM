@@ -1,3 +1,11 @@
+#!usr/bin/env python3
+#This is a single line comment
+#python program to list all prime_odd_even numbers from 1-100
+#Name : Moses Wachira
+#Email : wachiramoses519@gmail.com
+#Date : 15th Feb 2023
+#File : prime_odd_even.py
+
 #write a program to list all odd numbers from 1-100
 print("***The values below are odd numbers***")
 for odd_numbers in range(1,101):

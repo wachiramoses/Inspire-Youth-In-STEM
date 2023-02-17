@@ -10,10 +10,12 @@ else:
 
     #compound / multiple conditions
 
-    if((age > 30) & (genger == "male")):
-        print("You qualify for a loan ")
-    else:
-        print("No loan to you")
+if((age > 30) & ('genger' == "male")):
+    print("You qualify for a loan" )
+
+else:
+    print("No loan to you")
+
 
 
 

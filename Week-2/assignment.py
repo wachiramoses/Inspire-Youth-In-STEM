@@ -1,3 +1,12 @@
+#!usr/bin/env python3
+
+#This is a single line comment
+#python program to create tables
+#Name : Moses Wachira
+#Email : wachiramoses519@gmail.com
+#Date : 16th Feb 2023
+#File : assignment.py
+
 import sqlite3
 
 #connect to sqlite

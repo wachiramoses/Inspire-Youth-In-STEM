@@ -1,3 +1,11 @@
+#!usr/bin/env python3
+
+#This is a single line comment
+#python program to run lists
+#Name : Moses Wachira
+#Email : wachiramoses519@gmail.com
+#Date : 16th Feb 2023
+#File : list_fruit.py
 names = ["Wachira","Mary","John"]
 
 fruits = [ "mango", "oranges", "guavas", "bananas", "melon","kiwi","apple"]

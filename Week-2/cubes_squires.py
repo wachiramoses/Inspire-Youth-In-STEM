@@ -1,3 +1,12 @@
+#!usr/bin/env python3
+
+#This is a single line comment
+#python program to calculate cubes and squires
+#Name : Moses Wachira
+#Email : wachiramoses519@gmail.com
+#Date : 16th Feb 2023
+#File : cubes_squires.py
+
 #program to print the squires and cubes of numbers
 
 '''

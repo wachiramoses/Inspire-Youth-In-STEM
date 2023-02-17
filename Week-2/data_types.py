@@ -1,3 +1,11 @@
+#!usr/bin/env python3
+
+#This is a single line comment
+#python program to calculate floating and no floating numbers
+#Name : Moses Wachira
+#Email : wachiramoses519@gmail.com
+#Date : 15th Feb 2023
+#File : data_types.py
 #used to store information
 
 #floating and non floating

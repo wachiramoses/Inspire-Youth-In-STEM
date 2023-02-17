@@ -13,19 +13,23 @@ y = 7
 #addition
 sum_nums = x + y
 
-#subtraction
-diff_nums = x-y
+#diference
+diff_nums = x - y
 
+#product
+p_nums = x * y
 
+#quotient
+q_num = x / y
 
 #modulus-->remainder after dividing a
 #3/2 --> rem = 1..modulus
 mod_num = x % y
 
 print("sum of the numbers")
-print()
-print()
-print()
+print("diff of the numbers")
+print("product of the numbers")
+print("quotiet of the numbers")
 
 #left shift divide
 num1 = 64 << 2

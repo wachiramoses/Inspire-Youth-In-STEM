@@ -1,3 +1,11 @@
+#!usr/bin/env python3
+
+#This is a single line comment
+#python program to run for loop
+#Name : Moses Wachira
+#Email : wachiramoses519@gmail.com
+#Date : 14th Feb 2023
+#File : for_loop.py
 for i in range (0,10):
     
     print(i)

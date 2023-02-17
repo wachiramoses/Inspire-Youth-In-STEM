@@ -1,3 +1,12 @@
+
+#!usr/bin/env python3
+#This is a single line comment
+#python program on type_casting
+#Name : Moses Wachira
+#Email : wachiramoses519@gmail.com
+#Date : 17th Feb 2023
+#File : type_casting.py
+
 height = 34.78 # float
 
 #converting to integer
