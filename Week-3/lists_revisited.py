@@ -16,7 +16,7 @@ print(len(myFavouriteFruits))
 
 friends = ["wachira","mose","jayden","kelvin","paul"]
 print(friends)
-friends[5] = "mary"
+friends[0] = "mary"
 print(friends)
 print("-----------------------------------------------------")
 new_friends = friends.copy()
