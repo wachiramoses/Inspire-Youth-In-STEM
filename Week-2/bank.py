@@ -16,7 +16,7 @@
 #5% if income is less 100k
 
 #print gross income ,net income
-gross_income =int(input("what is your gross income"))
+gross_income =int(input("what is your gross income "))
 tax_group_1 = (gross_income * 0.05)
 tax_group_2 = (gross_income * 0.16 )
 tax_group_3 = (gross_income * 0.19)
