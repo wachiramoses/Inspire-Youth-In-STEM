@@ -7,7 +7,6 @@
 #Date : 17th Feb 2023
 #File : bank.py
 
-
 #write a program that calculate 16% per income
 #ranging between 100k - 150k
 
