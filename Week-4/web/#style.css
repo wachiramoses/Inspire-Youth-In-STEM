@@ -1,0 +1,35 @@
+*{
+    background-color: rgb(255, 109, 56);
+}
+
+h1{ font-size: 12px;
+    font-weight: bold;
+    color: rgb(229, 171, 55);
+    align-self: center;
+    background-color: rgb(187, 229, 215);
+    font-family: Arial,serif;
+}
+#msg_button{
+
+    color: rgb(51, 161, 169);
+    margin:25px;
+    align-self: center;
+    border:none;
+    border: radius 10px;
+    background-color: violet;
+}
+    
+p{
+    color:rgb(242, 146, 165);
+    font-size: x-large;
+    align-self: auto;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+#email-button{
+    color:rgb(224, 143, 215);
+    border: none;
+    background-color: black;
+    border-radius: inherit;
+
+}

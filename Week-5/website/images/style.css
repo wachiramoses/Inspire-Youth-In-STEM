@@ -1,0 +1,21 @@
+*{
+    margin:0px;
+    padding:0px;
+    background-image: url(images/banner.png)
+  
+}
+
+.header{
+    min-height: 100v;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+    
+}
+.nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}

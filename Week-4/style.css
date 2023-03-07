@@ -8,3 +8,26 @@ h1{
     align-self:center;
     font-family: 
 }
+body{ 
+    font-weight:bold 
+    font-family;
+    font-size:
+}
+#msg_button{
+    color:rgb(5, 236, 159);
+    margin: 25px;
+    align-self:centre;
+    background-color:rgb(34, 34, 196);
+    border:none
+}
+
+
+button{
+    color:pink
+    margin: 25px;
+    align-self:center;
+    background-colour: #0808a3;
+    border:none;
+    border-radius: 10px ;
+}
+
