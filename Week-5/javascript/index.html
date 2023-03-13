@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link rel=" stylesheet" href = "style.css">
+    </head>
+    <body>
+        <h1 id="text">Javascript Basics</h1>
+        <h1 id="f_name"></h1>
+        <h1 id="s_name"></h1>
+        <h1 id="age"></h1>
+        <h1 id="weight"></h1>
+        <h1 id="my_full_name"></h1>
+        <h2 id="f_number"></h2>
+        <h2 id="s_number"></h2>
+        <h2 id="city"></h2>
+        <h2 id="diff_num"></h2>
+        <h2 id="quotient"></h2>
+        <h2 id="fruits"></h2>
+        <h2 id="msg"></h2>
+        <script>
+            //variables in Javascript
+            // Number
+          var f_number = 12;
+          var s_number =10;
+          var sum_num =f_number + s_number
+            //ARITHMETIC OPPERATORS  
+            // + , - , * , %
+            var n1=13
+            var n2=6
+            var sum=n1 + n2;
+            var diff=n1-n2;
+            var product=n1*n2;
+            var quotient=n1/n2;
+            var modulus=f_number%s_number;
+
+            var sum_num=f_number+s_number;
+            var diff_num = f_number-s_number;
+            var product_num =f_number*s_number;
+            var quotient =f_number/s_number;
+            var modulus=age ;
+            var n1,n2,n3,n4; // declare variables
+
+        // strings use "  "
+        var my_first_name = "Moses"
+        var my_second_name="Wachira"
+        var my_city = "Nairobi"
+        var age= 20;
+        var weight= 65.7;
+        var my_full_name = my_first_name + "    "+my_second_name
+          //string
+
+          //Arrays []
+          let fruits = ["Banana","Apple","Lime","Guava","Orange","Pinneaple"]
+            let my_fruits = fruits[fruits.length -1]
+          
+          var msg="";
+          //conditions --if else
+          if (age > 18){
+            msg = "you can drive";
+          }else{
+            msg = "still too young to drive";
+          }
+          
+          document.getElementById("f_name").innerHTML = my_first_name;
+          document.getElementById("s_name").innerHTML = my_second_name;
+          document.getElementById("city").innerHTML = my_city;
+          document.getElementById("age").innerHTML = age;
+          document.getElementById("weight").innerHTML = weight;
+          document.getElementById("f_number").innerHTML = f_number;
+          document.getElementById("s_number").innerHTML = s_number;
+          document.getElementById("my_fruits").innerHTML = my_fruits;
+          document.getElementById("msg").innerHTML = msg;
+          document.getElementById("my_full_name").innerHTML = my_full_name;
+          //mine
+          document.getElementById("sum").innerHTML = sum_num;
+          document.getElementById("diff_num").innerHTML = sum_num;
+          document.getElementById("quotient").innerHTML = sum_num;
+          document.getElementById("fruits").innerHTML = my_fruits;
+          document.getElementById("fruits").innerHTML = msg;
+
+
+        </script>
+
+        <button>Click Me</button>
+    </body>
+</html>

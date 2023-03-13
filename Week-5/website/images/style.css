@@ -9,7 +9,7 @@
     width:100%;
     
     background-position: center;
-    background-image: url(images/JKUAT-Main-Campus.jpg);
+    background-image: url(images/banner.png);
     background-size: cover;
     position:relative;
     
@@ -30,7 +30,7 @@ nav img{
     text-align: right;
 }
 .nav-links li{
-    color: crimson;
+    color: rgb(18, 7, 9);
     font-size: 13px; 
 }
 .nav-links ul li{
@@ -64,7 +64,7 @@ nav img{
 }
 .text-box{
     font-size: 20px;
-    color: rgb(218, 79, 79);
+    color: rgb(36, 28, 28);
     text-align: center;
 }
 .logo{
@@ -74,10 +74,10 @@ nav img{
 .gate{
     text-align: center;
     font-size: 20px;
-    color: rgb(7, 216, 231);
+    color: rgb(28, 33, 34);
 }
 
 .introduction{
     text-align: center;
-    color: aqua;
+    color: rgb(12, 21, 21);
 }

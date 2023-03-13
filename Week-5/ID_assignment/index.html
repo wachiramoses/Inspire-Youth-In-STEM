@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="class">
+        <h1 id="myid">MY ID</h1>
+        <h2 id="formheader">Fill the Form Below</h2>
+
+            <h2><label for="name">Enter Name:
+            <input type="text" id="dsname"></label></h2>
+            <h2><label for="ageno">Enter Age:
+            <input type="text" id="age"></label></h2>
+            <p><button onclick="check_age()" id = "button">CHECK</button></p>
+  
+        <h1 id="message"></h1>
+        </div>
+
+        <script>
+            function check_age(){
+                let driversname = document.getElementById("dsname").value;
+                var agenumber = document.getElementById("age").value;
+
+                if(agenumber === "" || driversname === ""){
+                    alert("Please fill all boxes")
+                }else{
+                    if(agenumber >= 18){
+                        msg = "Welcome."
+                        var full_msg = driversname + ", " +msg;
+                    }else{
+                        msg = "Your are too young to drink."
+                        full_msg = driversname + ", " +msg;
+                    }
+                }
+               
+                document.getElementById("message").innerHTML = full_msg;
+            }
+        </script>
+    </body>
+</html>
