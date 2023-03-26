@@ -4,6 +4,84 @@
 <link rel=" stylesheet" href = "style.css">
     </head>
     <body>
+      <h1>LOG IN SYSTEM</h1>
+      <label for="">Name</label><br>
+      <input type="text"><br>
+      <label for="">Age</label><br>
+      <input id="age" type="int"><br>
+      <button id="confirm_btn">CONFIRM</button>
+      <h2 id="get_in">You can get in</h2>
+
+      <h1 id="number">0</h1>
+      <button id="increase_btn">Increase</button>
+      <button id="decrease_btn">Decrease</button>
+      <button id="reset_btn">Reset</button>
+      <script>
+ document.getElementById("increase_btn").onclick=function increase_number(){
+ number +=1;
+console.log(number)
+ document.getElementById("number").innerHTML = number
+ }
+
+ document.getElementById("decrease_btn").onclick=function decrease_number(){
+ number -=1;
+console.log(number)
+ document.getElementById("number").innerHTML= number
+ }
+
+ document.getElementById("reset_btn").onclick=function reset_number(){
+ number =0;
+console.log(number)
+ document.getElementById("number").innerHTML = number
+ }
+
+
+ age = 0
+ msg=""
+function add_numbers(num_1,num_2)
+{
+    return num_1+num_2
+}
+add_numbers(23,45)
+console.log("Botton clicked ! ")
+age = document.getElementById()
+// let age = 0
+ let msg=""
+function add_numbers(num_1,num_2)
+{
+    return num_1+num_2
+}
+add_numbers(23,45)
+console("Javascript console testing")
+console.log("Botton clicked ! ")
+
+    age = document.getElementById("age").innerHTML.valueOf()
+if(age <= 18){
+    msg="You are not allowed!"
+
+    // You are no allowed
+    document.getElementById("get_in").innerHTML=msg
+}else{
+    msg = "Welcome to the club!"
+    document.getElementById("get_in").innerHTML=msg
+}
+
+    age = document.getElementById("age").innerHTML.valueOf(){
+if(age <= 18){
+    msg="You are not allowed!"
+    console.log("You are not allowed.")
+    // You are no allowed
+    document.getElementById("get_in").innerHTML=msg
+}else{
+    msg = "Welcome to the club!"
+    console.log("Welcome to the club.")
+    document.getElementById("get_in").innerHTML=msg
+}
+};
+
+      </script>
+      
+      <!---
         <h1 id="text">Javascript Basics</h1>
         <h1 id="f_name"></h1>
         <h1 id="s_name"></h1>
@@ -17,6 +95,7 @@
         <h2 id="quotient"></h2>
         <h2 id="fruits"></h2>
         <h2 id="msg"></h2>
+      
         <script>
             //variables in Javascript
             // Number
@@ -71,7 +150,7 @@
           document.getElementById("my_fruits").innerHTML = my_fruits;
           document.getElementById("msg").innerHTML = msg;
           document.getElementById("my_full_name").innerHTML = my_full_name;
-         
+         ---->
 
 
         </script>

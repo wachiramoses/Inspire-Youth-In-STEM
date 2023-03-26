@@ -1,0 +1,64 @@
+#songs{
+    margin: auto;
+    width: 50%;
+   
+  
+}
+body{
+background-color: brown;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+text-align: center;
+align-items: center;
+align-content: center;
+
+}
+#rezman{
+display: flex;
+text-align: center;
+}
+#header1{
+    text-align: center;
+}
+#ayra{
+display: flex;
+text-align: center;
+}
+#header2{
+    text-align: center;
+}
+#sautisol{
+display: flex;
+text-align: center;
+}
+#header3{
+    text-align: center;
+}
+#burna{
+    display: flex;
+    text-align: center;
+ }
+#header4{
+        text-align: center;
+}
+#img{
+border-radius: 50px;
+}
+#elements{
+text-align: center;
+}
+#name{
+font-size: 14px;
+}
+p{
+color: white;
+}
+h2{
+    color: white;
+    }
+.header{
+    
+    color: rgb(209, 175, 175);
+}

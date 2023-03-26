@@ -1,0 +1,25 @@
+#THE TERMINATOR
+find out the materials made out of 
+find the capabilities of the computer used to create it
+find out which company built terminator
+
+
+
+parts of a robot 
+    *sensors:
+            -chemical sensors , ie radioactive materials
+            -gas sensors ie carbon monoxide
+            -temperature humidity
+            -motion
+            -distance
+            -camera ie image sensor
+    *micro procesor/micro controler/computer: 
+            -they run software which controls the robot
+    *actuators/effectors:
+            -motar + motar driver ----> they work together
+                        Types of  mortars
+                            -stepper mortar
+                            -dc motrar
+                            -servo
+            -pump        
+            -arms/grippers 
